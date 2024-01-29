@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Forms</title>
+</head>
+
+<body>
+
+<form>
+    <label for="user-name" >Enter your name:</label>
+    <input required id="user-name" type="text">
+    <br> <label for="email">Enter your email:</label>
+    <input id="email" type="email">
+    <br> <label for="lucky-number">What's your lucky number?</label>
+    <input id="lucky-number" name="lucky_number" type="number" value="0">
+    <br> <label for="birthdate">What's your birthdate?</label>
+    <input id="birthdate" type="date">
+    <br> <label for="current-time">What time is it?</label>
+    <input id="current-time" type="time">
+    <br> <label for="number-selection">Select a number from this range:</label>
+    <input id="number-selection" type="range">
+    <br> <label for="favorite-color">Choose your favorite color:</label>
+    <input id="favorite-color" type="color">
+    <br> <label for="secret-password">What's the secret password?</label>
+    <input id="secret-password" type="password">
+    <br> <label for="search">Search:</label>
+    <input id="search" type="search">
+    <br> <label for="are-you-sure">Are you sure?</label>
+    <input id="are-you-sure" type="checkbox">
+    <br> <label for="favorite-joke">What's your favorite joke?</label>
+    <br> <textarea id="favorite-joke" rows="15" cols="40"></textarea>
+    <br> <label for="favorite-weather">What's your favorite weather?</label>
+    <select id="favorite-weather">
+        <option>Sunny</option>
+        <option>Snowy</option>
+        <option>Rainy</option>
+    </select>
+    <br> <label>Is it your favorite weather today?</label>
+    <br> <input id="favorite-weather-today" name="choice" type="radio">
+    <label for="favorite-weather-today">Yes</label>
+    <br> <input id="not-favorite-weather-today" name="choice" type="radio" checked>
+    <label for="not-favorite-weather-today">No</label>
+    <br> <input type="submit">
+</form>
+
+
+</body>
+</html>
